@@ -7,6 +7,9 @@ var letrasUsadas = [];
 var letrasFalladas = [];
 console.log(palabra);
 
+var txtUsr = document.getElementById("textoUsr").value;
+txtUsr = txtUsr.toUpperCase();
+
 //vemos si el usuario ha usado alguna letra
 
 // poner el array de la respuesta
@@ -23,8 +26,23 @@ var vidas = 7; //!decrementa cuando letrasFalladas aumenta
  * Si la letra no está en la matriz, agréguela a la matriz y reste una de las vidas.
  * @param letra - La letra que el usuario ha escrito
  */
-function letraPushEnArray(letra) {
-    
+function letraPushEnArrays(letra) {
+    if(!letrasFalladas.includes(letra) && !palabra.includes(letra) && !letrasUsadas.includes(letra)) {
+        letrasFalladas.push(letra);
+        letrasUsadas.push(letra);
+        vidas--;
+    } else {
+        console.log("Esa letra se ha usado");
+    }
+}
+
+function letraPushArrayVista() {
+    for(var j=0; j < palabra.length; j++) {
+        if(palabra[j]===txtUsr) { //!Hacer que el usuario no tenga que poner espacios
+            answerArray[j] = txtUsr;
+        }
+        wordContainer.innerHTML = answerArray.join(" ");
+    }
 }
 
 /**
@@ -33,7 +51,7 @@ function letraPushEnArray(letra) {
  * @param array - la matriz para buscar
  * @returns un valor booleano.
  */
-function seHaUsado(letra, array) {
+function arrayContieneLetra(letra, array) {
     return array.includes(letra);
 }
 
@@ -41,49 +59,33 @@ function seHaUsado(letra, array) {
  * Si el número de vidas es mayor que cero, devuelve verdadero, de lo contrario, devuelve falso.
  * @returns el valor de las vidas.
  */
-function comprobarVidas() {
+function vidasMayorQueCero() {
     return vidas > 0;
 }
 
+/**
+ * Limpia el campo de entrada.
+ */
+function limpiarInput() {
+    document.getElementById("textoUsr").value="";
+    console.log(answerArray);
+}
 /**
  * Toma el valor de la entrada, lo convierte a mayúsculas y luego lo compara con las letras de la
  * palabra. Si coincide, reemplaza el guión bajo con la letra. Si no coincide, registra "Letra
  * incorrecta" y resta uno de la variable vidas.
  */
-function jugar() {
-    var txtUsr = document.getElementById("textoUsr").value;
-    txtUsr = txtUsr.toUpperCase();
-    if(comprobarVidas()) {
+const jugar = () => {
+
+    if(vidasMayorQueCero()) {
         //Se puede jugar porque las vidas son mayores a 0
+        if(!arrayContieneLetra(txtUsr, letrasFalladas)) { //Si la letra no está en letras falladas, le hacemos un push
+            
+        } else if (!arrayContieneLetra(txtUsr, letrasUsadas)) {
+
+        }
     } else {
         //No se puede jugar porque las vidas son menores a 0
-    }
-
-
-    if(vidas > 0) {
-        
-        if(seHaUsado(txtUsr)) {
-            console.log("Esa letra ya se ha usado!");
-        } else { 
-            var flag = true;
-            //bucle para ver si está en el array
-            for(var j=0; j < palabra.length; j++) {
-                if(palabra[j]===txtUsr) { //!Hacer que el usuario no tenga que poner espacios
-                    answerArray[j] = txtUsr;
-                } else {
-                    letraPushEnArray(answerArray, txtUsr);
-                }
-                wordContainer.innerHTML = answerArray.join(" ");
-            }
-
-            (txtUsr);
-            usedLetters.innerHTML = letrasUsadas.join(" ");
-        }
-        //hacemos que el input quede vacío
-        document.getElementById("textoUsr").value="";
-        console.log(answerArray);
-    } else if(vidas <=0) {
-        console.log("Se han acabado las vidas");
     }
 }
 
@@ -95,7 +97,7 @@ function jugar() {
  */
 function enterKeyPressed(event) {
     if (event.keyCode == 13) {
-        //console.log("La tecla enter ha sido presionada");
-        jugar();
+        console.log("La tecla enter ha sido presionada");
+        //jugar();
     }
 }
