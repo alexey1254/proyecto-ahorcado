@@ -8,4 +8,4 @@ CREATE TABLE user (
     password varchar(255) not null,
 ) ENGINE='InnoDB';
 
-insert into user (correo, login, password) VALUES ("admin@admin.com","admin",);
+INSERT INTO user (correo, login, password) VALUES ("admin@admin.com","admin",);
