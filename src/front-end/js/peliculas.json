@@ -1,0 +1,394 @@
+{
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "/yYrvN5WFeGYjJnRzhY0QXuo4Isw.jpg",
+            "genre_ids": [
+                28,
+                12,
+                878
+            ],
+            "id": 505642,
+            "original_language": "en",
+            "original_title": "Black Panther: Wakanda Forever",
+            "overview": "La reina Ramonda, Shuri, M’Baku, Okoye y las Dora Milaje, luchan para proteger su nación de la injerencia de potencias mundiales a raíz de la muerte del rey T’Challa. Mientras los wakandianos se esfuerzan por adaptarse a su nueva etapa, los héroes deben actuar unidos, con la ayuda del Perro de la Guerra Nakia y Everett Ross, y forzar un nuevo destino para el reino de Wakanda.",
+            "popularity": 4853.507,
+            "poster_path": "/yOA8qkI3VvZNPGHv6uj7DdoL1Pz.jpg",
+            "release_date": "2022-11-09",
+            "title": "Black Panther: Wakanda Forever",
+            "video": false,
+            "vote_average": 7.6,
+            "vote_count": 533
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/bQXAqRx2Fgc46uCVWgoPz5L5Dtr.jpg",
+            "genre_ids": [
+                28,
+                14,
+                878
+            ],
+            "id": 436270,
+            "original_language": "en",
+            "original_title": "Black Adam",
+            "overview": "Casi 5.000 años después de haber sido dotado de los poderes omnipotentes de los antiguos dioses -y encarcelado con la misma rapidez-, Black Adam es liberado de su tumba terrenal, listo para desatar su forma única de justicia en el mundo moderno.",
+            "popularity": 3660.328,
+            "poster_path": "/3eQMzMd2qsZkAJbk4wekp3Crg54.jpg",
+            "release_date": "2022-10-19",
+            "title": "Black Adam",
+            "video": false,
+            "vote_average": 6.9,
+            "vote_count": 1075
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/y5Z0WesTjvn59jP6yo459eUsbli.jpg",
+            "genre_ids": [
+                27,
+                53
+            ],
+            "id": 663712,
+            "original_language": "en",
+            "original_title": "Terrifier 2",
+            "overview": "Después de ser resucitado por una entidad siniestra, Art the Clown regresa al condado de Miles, donde debe cazar y destruir a una adolescente y a su hermano menor en la noche de Halloween.",
+            "popularity": 3396.717,
+            "poster_path": "/yw8NQyvbeNXoZO6v4SEXrgQ27Ll.jpg",
+            "release_date": "2022-10-06",
+            "title": "Terrifier 2",
+            "video": false,
+            "vote_average": 7,
+            "vote_count": 589
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/u9Io1hVnxb2b3T0z99aOK8sq0SN.jpg",
+            "genre_ids": [
+                9648,
+                12,
+                80
+            ],
+            "id": 829280,
+            "original_language": "en",
+            "original_title": "Enola Holmes 2",
+            "overview": "Después del éxito de su primer caso, Enola Holmes (Millie Bobby Brown) sigue los pasos de su popular hermano, Sherlock (Henry Cavill), abriendo su propia agencia, descubriendo que la vida como mujer detective a sueldo no es tan fácil como parece. Resignada a aceptar la realidad como adulta. A punto de cerrar el negocio cuando una joven cerillera sin dinero le ofrece a Enola su primer trabajo oficial: encontrar a su hermana desaparecida.",
+            "popularity": 3224.502,
+            "poster_path": "/kaWoUugp3ZWgVsahtyjtWuo9hBi.jpg",
+            "release_date": "2022-11-04",
+            "title": "Enola Holmes 2",
+            "video": false,
+            "vote_average": 7.8,
+            "vote_count": 807
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/b2FxWOxe9K7ZZ1uaPOze2RJ1ajq.jpg",
+            "genre_ids": [
+                27,
+                28,
+                35
+            ],
+            "id": 675054,
+            "original_language": "es",
+            "original_title": "MexZombies",
+            "overview": "Dos adolescentes un poco inadaptados socialmente, uno cinéfilo de películas clásicas de antaño y el otro un aspirante a ser experto en parkour, deben enfrentarse a un inesperado reto: prevenir un apocalipsis zombi, al mismo tiempo que ponen a prueba su amistad y buscan su primer amor.",
+            "popularity": 2794.744,
+            "poster_path": "/85zufUxhD97k2s5Bu2u101Qd8Sg.jpg",
+            "release_date": "2022-10-26",
+            "title": "MexZombies",
+            "video": false,
+            "vote_average": 7.3,
+            "vote_count": 71
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/pGx6O6IwqADOsgmqWzPysmWnOyr.jpg",
+            "genre_ids": [
+                28,
+                14
+            ],
+            "id": 732459,
+            "original_language": "en",
+            "original_title": "Blade of the 47 Ronin",
+            "overview": "En esta secuela de \"47 Ronin\", surge una nueva clase de guerreros entre los clanes samuráis para evitar que una codiciada espada caiga en manos equivocadas.",
+            "popularity": 2002.3,
+            "poster_path": "/kjFDIlUCJkcpFxYKtE6OsGcAfQQ.jpg",
+            "release_date": "2022-10-25",
+            "title": "La Espada De Los 47 Ronin",
+            "video": false,
+            "vote_average": 6.9,
+            "vote_count": 70
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/mqsPyyeDCBAghXyjbw4TfEYwljw.jpg",
+            "genre_ids": [
+                10752,
+                18,
+                28
+            ],
+            "id": 49046,
+            "original_language": "de",
+            "original_title": "Im Westen nichts Neues",
+            "overview": "Las aterradoras experiencias y la angustia de un joven soldado alemán en el frente occidental durante la Primera Guerra Mundial.",
+            "popularity": 2428.602,
+            "poster_path": "/jPYPRS7LVmLDXGJ7VfBjXaV9eZr.jpg",
+            "release_date": "2022-10-07",
+            "title": "Sin novedad en el frente",
+            "video": false,
+            "vote_average": 7.8,
+            "vote_count": 746
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/1DBDwevWS8OhiT3wqqlW7KGPd6m.jpg",
+            "genre_ids": [
+                53
+            ],
+            "id": 985939,
+            "original_language": "en",
+            "original_title": "Fall",
+            "overview": "Para las mejores amigas Becky y Hunter, la vida trata de superar tus miedos y empujar tus límites. Sin embargo, después de subir hasta la cima de una torre de comunicaciones abandonada, se encuentran atrapadas y sin forma de bajar. A 600 metros del suelo y totalmente alejadas de la civilización, las chicas pondrán a prueba sus habilidades de escaladoras expertas y lucharán desesperadamente por sobrevivir aunque lo tengan todo en contra. ¿Lo conseguirán?",
+            "popularity": 1741.806,
+            "poster_path": "/tsjVxiuGyvMC4IbI2gjmDYpcYjU.jpg",
+            "release_date": "2022-08-11",
+            "title": "Fall",
+            "video": false,
+            "vote_average": 7.3,
+            "vote_count": 1730
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/5GA3vV1aWWHTSDO5eno8V5zDo8r.jpg",
+            "genre_ids": [
+                27,
+                53
+            ],
+            "id": 760161,
+            "original_language": "en",
+            "original_title": "Orphan: First Kill",
+            "overview": "Tras escapar de un centro psiquiátrico estonio, Leena Klammer viaja a América haciéndose pasar por Esther, la hija desaparecida de una familia adinerada. Pero cuando su máscara empieza a caer, se enfrenta a una madre que protegerá a su familia de la \"niña\" asesina a cualquier precio.",
+            "popularity": 1639.315,
+            "poster_path": "/eed4qNf174pcT65it1PBbaTTL3x.jpg",
+            "release_date": "2022-07-27",
+            "title": "La huérfana: Primer asesinato",
+            "video": false,
+            "vote_average": 6.8,
+            "vote_count": 1286
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/yo0qfH2dQGGMxkfivdkz5zxVatD.jpg",
+            "genre_ids": [
+                27,
+                53
+            ],
+            "id": 830788,
+            "original_language": "en",
+            "original_title": "The Invitation",
+            "overview": "Una joven es cortejada y deslumbrada solo para descubrir que una conspiración gótica está en marcha.",
+            "popularity": 1193.908,
+            "poster_path": "/pTCVouK7eNjG7JYACwwMMapjD1N.jpg",
+            "release_date": "2022-08-24",
+            "title": "La invitación",
+            "video": false,
+            "vote_average": 6.4,
+            "vote_count": 316
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/f9g3R9gq0bASip9RnK2H56dbb5j.jpg",
+            "genre_ids": [
+                53
+            ],
+            "id": 979924,
+            "original_language": "en",
+            "original_title": "On the Line",
+            "overview": "Elvis lleva 25 años aconsejando a sus oyentes en directo en su emblemático programa nocturno de entrevistas. Es uno de los últimos míticos locutores de radio que quedan y su sobrada experiencia le hace ignorar las advertencias de su jefa sobre su comportamiento en el programa. Cada noche llega a sus oyentes con su inconfundible voz y sus agudas réplicas. Tiene una opinión sobre prácticamente todo y se embarra en toda clase de polémicas. Hasta que una noche recibe la llamada de un hombre que está a punto de hacer algo terrible. Esta llamada podría destruir la carrera de Elvis, a su familia y toda su vida por completo.",
+            "popularity": 1533.554,
+            "poster_path": "/17KUBVVPyjXYqn1P6vouLBe8laB.jpg",
+            "release_date": "2022-10-31",
+            "title": "Secuestro en directo",
+            "video": false,
+            "vote_average": 6.6,
+            "vote_count": 98
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/tIX6j3NzadlwGcJ52nuWdmtOQkg.jpg",
+            "genre_ids": [
+                27,
+                53,
+                9648
+            ],
+            "id": 717728,
+            "original_language": "en",
+            "original_title": "Jeepers Creepers: Reborn",
+            "overview": "El Horror Hound festival celebra su primer evento en Luisiana, donde atrae a cientos de fanes del terror; entre ellos se encuentra Laine que, obligada a asistir por Chase, su novio, comienza a experimentar premoniciones inexplicables y visiones inquietantes relacionadas con el pasado de la ciudad y con El Creeper. A medida que avanza el festival y el entretenimiento empapado de sangre se convierte en un frenesí, Laine cree que algo sobrenatural ha sido convocado y que ella está en el centro de todo",
+            "popularity": 1487.516,
+            "poster_path": "/aGBuiirBIQ7o64FmJxO53eYDuro.jpg",
+            "release_date": "2022-09-15",
+            "title": "Jeepers Creepers: Reborn",
+            "video": false,
+            "vote_average": 5.8,
+            "vote_count": 454
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/akYTfFvYkFGJReFxXM841NidlAa.jpg",
+            "genre_ids": [
+                80,
+                18
+            ],
+            "id": 1033107,
+            "original_language": "en",
+            "original_title": "Wild Is the Wind",
+            "overview": "Cuando dos policías corruptos investigan el brutal asesinato de una niña, las tensiones llegan a un punto crítico en su pequeño pueblo segregado racialmente.",
+            "popularity": 1359.047,
+            "poster_path": "/2Apj7y1buX0fA7KLv4GyaI83sPV.jpg",
+            "release_date": "2022-10-28",
+            "title": "Salvaje es el viento",
+            "video": false,
+            "vote_average": 5.8,
+            "vote_count": 30
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/3Ykwi0ObNpqy5gAwhddmxKWs1dp.jpg",
+            "genre_ids": [
+                53,
+                18
+            ],
+            "id": 848526,
+            "original_language": "fr",
+            "original_title": "Arsenault & Fils",
+            "overview": "Los Arsenault son una familia que ha estado involucrada en la caza furtiva ilegal. Adam, el hijo mayor, quiere dejar la empresa, pero los planes se complican con la llegada de su hermano menor.",
+            "popularity": 1123.346,
+            "poster_path": "/2lyP2YP6C2uB8ZrdhLJQxeNfuxM.jpg",
+            "release_date": "2022-06-17",
+            "title": "Peligrosos juegos de familia",
+            "video": false,
+            "vote_average": 5.1,
+            "vote_count": 5
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/cvOHMfZTxIiNI9yyjYgYfCpT48p.jpg",
+            "genre_ids": [
+                28,
+                80,
+                53
+            ],
+            "id": 944864,
+            "original_language": "nl",
+            "original_title": "The Takeover",
+            "overview": "Mel Bandison, una hacker justiciera, consigue evitar un intento de pirateo de un autobús eléctrico. Aunque, accidentalmente, esa buena acción acaba provocando el cierre de toda una red criminal internacional. Junto a Thomas Deen, su cita de la noche anterior, tendrá que huir de estos delincuentes, pero también de la policía.",
+            "popularity": 1341.62,
+            "poster_path": "/1GNzSPbOZkuKYIA7mHbFHe1W3CH.jpg",
+            "release_date": "2022-11-01",
+            "title": "La toma del poder",
+            "video": false,
+            "vote_average": 5.7,
+            "vote_count": 62
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/5hoS3nEkGGXUfmnu39yw1k52JX5.jpg",
+            "genre_ids": [
+                28,
+                12,
+                14
+            ],
+            "id": 960704,
+            "original_language": "ja",
+            "original_title": "鋼の錬金術師 完結編 最後の錬成",
+            "overview": "El largo y tortuoso viaje de los hermanos Elric llega a su épico final, en el que deben enfrentar una amenaza de otro mundo que afecta a todo el país.",
+            "popularity": 1128.456,
+            "poster_path": "/mQQXEMsukZ2Okd98LCrL33q7tFH.jpg",
+            "release_date": "2022-06-24",
+            "title": "Fullmetal Alchemist: La alquimia final",
+            "video": false,
+            "vote_average": 6.3,
+            "vote_count": 118
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/uSqLcj8V2qWYRbOXCfdwV90vASS.jpg",
+            "genre_ids": [
+                18,
+                28,
+                10752
+            ],
+            "id": 966220,
+            "original_language": "uk",
+            "original_title": "Снайпер. Білий ворон",
+            "overview": "Mykola es un pacifista excéntrico que quiere ser útil a la humanidad. Cuando comienza la guerra en Donbass, el ingenuo mundo de Mykola se derrumba cuando los militantes matan a su esposa embarazada y queman su casa hasta los cimientos. Recuperado, toma una decisión cardinal y se enrola en una compañía de francotiradores. Habiendo conocido a los asesinos de su esposa, se derrumba emocionalmente y organiza el \"terror de francotiradores\" para el enemigo. Es salvado de una muerte sin sentido por su instructor, quien a su vez es herido de muerte. La muerte de un amigo deja una “cicatriz” y Mykola está dispuesto a sacrificar su vida.",
+            "popularity": 1845.393,
+            "poster_path": "/bsHqULcPgIUroCHLfTIXWJ24sdd.jpg",
+            "release_date": "2022-05-03",
+            "title": "El francotirador de Donbass",
+            "video": false,
+            "vote_average": 7.4,
+            "vote_count": 70
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/olPXihyFeeNvnaD6IOBltgIV1FU.jpg",
+            "genre_ids": [
+                27,
+                9648,
+                53
+            ],
+            "id": 882598,
+            "original_language": "en",
+            "original_title": "Smile",
+            "overview": "Tras presenciar un extraño y traumático incidente con un paciente, la doctora Rose Cotter (Sosie Bacon) comienza a experimentar sucesos aterradores que no puede explicar. A medida que un miedo sobrecogedor comienza a afectar a todos los aspectos de su vida, Rose se verá obligada a afrontar a su problemático pasado para sobrevivir y escapar de su terrorífica nueva realidad.",
+            "popularity": 1744.732,
+            "poster_path": "/aw05OSgJFxsMiLAN0UQG2gCdTGY.jpg",
+            "release_date": "2022-09-23",
+            "title": "Smile",
+            "video": false,
+            "vote_average": 6.7,
+            "vote_count": 500
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/iS9U3VHpPEjTWnwmW56CrBlpgLj.jpg",
+            "genre_ids": [
+                14,
+                35,
+                10751
+            ],
+            "id": 642885,
+            "original_language": "en",
+            "original_title": "Hocus Pocus 2",
+            "overview": "Han pasado 29 años desde que alguien encendió la Vela de la Llama Negra y resucitó a las hermanas Sanderson del siglo XVII, y ahora buscan venganza. De tres estudiantes de secundaria depende impedir que las voraces brujas causen un nuevo tipo de estrago en Salem antes del amanecer el día de Halloween.",
+            "popularity": 1225.705,
+            "poster_path": "/i2uxePzWHeliW3q8ck4W5zfv43w.jpg",
+            "release_date": "2022-09-27",
+            "title": "El retorno de las brujas 2",
+            "video": false,
+            "vote_average": 7.5,
+            "vote_count": 1094
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/y4XBYLldCLuNLVeObTndfAaUrc3.jpg",
+            "genre_ids": [
+                28,
+                80,
+                53
+            ],
+            "id": 896485,
+            "original_language": "fr",
+            "original_title": "Overdose",
+            "overview": "Sara, jefa de la brigada de narcóticos de la policía de Toulouse, se ve obligada a colaborar con Richard, el jefe de la policía criminal local, para detener una lancha que se desplaza a gran velocidad entre España y Francia y encontrar al asesino relacionado con el caso.",
+            "popularity": 1202.803,
+            "poster_path": "/1Mxb68Eg5jCvZwfFG3QjMS5ysGJ.jpg",
+            "release_date": "2022-11-04",
+            "title": "Sobredosis",
+            "video": false,
+            "vote_average": 6.5,
+            "vote_count": 66
+        }
+    ]
+}

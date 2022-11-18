@@ -1,1 +1,1 @@
-# proyecto-ahorcado
+# Proyecto de ahorcado
