@@ -18,15 +18,15 @@ function getRandomFilm(array) {
 function cargarPeliculas(){
     const xhttp = new XMLHttpRequest();
     let numPagina = Math.ceil(Math.random() * 100);
-    let url = "https://api.themoviedb.org/3/movie/popular?api_key=71e4d18dc5f01e3d5652f59c54853ee4&language=es-ES&page=" + numPagina;;
-    xhttp.open("GET",url , true); //Ojo con esta linea, si es una ruta relativa hay que ponerla desde donde se está ejecutando el html >:(
+    let url = "https://api.themoviedb.org/3/movie/popular?api_key=71e4d18dc5f01e3d5652f59c54853ee4&language=es-ES&page=" + numPagina;
+    xhttp.open("GET",url , true); //Ojo con esta linea, si es un json que está en el codigo fuente hay que ponerlo desde donde se está ejecutando el html
     xhttp.send();
     var listaPeliculas = [];
     xhttp.onreadystatechange = function() {
         if(this.readyState == 4 && this.status == 200) {
             let datos = JSON.parse(this.responseText); 
             for (let peli in datos["results"]) {
-                var pelicula = new Pelicula(datos["results"][peli]["title"],datos["results"][peli]["id"],datos["results"][peli]["overview"], datos["results"][peli]["poster_path"]);
+                var pelicula = new Pelicula(datos["results"][peli]["title"],datos["results"][peli]["id"],datos["results"][peli]["overview"], datos["results"][peli]["poster_path"], datos["results"][peli]["original_language"]);
                 listaPeliculas.push(pelicula);
             }
         }
