@@ -17,7 +17,9 @@ function getRandomFilm(array) {
  */
 function cargarPeliculas(){
     const xhttp = new XMLHttpRequest();
-    xhttp.open("GET", "../js/peliculas.json", true); //Ojo con esta linea, si es una ruta relativa hay que ponerla desde donde se está ejecutando el html >:(
+    let numPagina = Math.ceil(Math.random() * 100);
+    let url = "https://api.themoviedb.org/3/movie/popular?api_key=71e4d18dc5f01e3d5652f59c54853ee4&language=es-ES&page=" + numPagina;;
+    xhttp.open("GET",url , true); //Ojo con esta linea, si es una ruta relativa hay que ponerla desde donde se está ejecutando el html >:(
     xhttp.send();
     var listaPeliculas = [];
     xhttp.onreadystatechange = function() {

@@ -10,6 +10,8 @@ palabra = palabra.replace(/\s+/g, "");
 palabra = palabra.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 palabra = palabra.replace(/[.:]/g, "");
 console.log(palabra);
+let numeroImg = 0;
+
 
 var txtUsr = document.getElementById("textoUsr").value;
 txtUsr = txtUsr.toUpperCase();
@@ -24,7 +26,7 @@ for (var i = 0; i < palabra.length; i++) {
 }
 wordContainer.innerHTML = answerArray.join(" ");
 // Esta variable sirve para ver cuantas vidas tiene el usuario
-var vidas = 7;
+var vidas = 6;
 document.getElementById("vidas").innerHTML = vidas;
 
 /**
@@ -46,9 +48,17 @@ function letraPushArrayVista() {
     }
     if (!flag) {
         vidas--;
+        numeroImg++;
+        setAhorcadoImg(numeroImg);
         document.getElementById("vidas").innerHTML = vidas;
         console.log("vidas: ", vidas);
     }
+}
+
+function setAhorcadoImg(numeroImg) {
+    let ahorcadoImg = "../../assets/img/img"+numeroImg+".png";
+    let img = document.getElementById("imagen");
+    img.setAttribute("src",ahorcadoImg);
 }
 
 /**

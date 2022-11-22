@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../../css/style.css">
     <title>Proyecto ahorcado</title>
 </head>
 <body>
@@ -12,16 +12,16 @@
         <header class="navbar navbar-dark bg-primary">
           <div class="container-fluid">
             <h3 class="col-3">Juego del ahorcado</h3>
-            <h4 class="col-9"><a href="./index.html" class="btn btn-info" role="button">Volver</a></h4>
+            <h4 class="col-9"><a href="../index.html" class="btn btn-info" role="button">Volver</a></h4>
           </div>
             
         </header>
         <main class="container-fluid">
             <div class="row m-0 justify-content-center">
                 <div class="col-auto p-1 text-center">
-                    <canvas id="canvas">
-                        <!--Aqui va la imagen del ahorcado generado por js-->
-                    </canvas>
+                    <div class="">
+                      <img id="imagen" src="../../assets/img/img0.png" alt="imagenAhorcado">
+                    </div>
                     <div class="col">Vidas: <p id="vidas" class="d-inline-block"></p></div>
                     <div  class="p-0 col"><p class="d-inline-block">Letras usadas:</p><p class="d-inline-block p-1 separateLetters h5" id="used_letters"></p></div>
                     <div id="word_container" class="separateLetters h4"></div> <br><br>
@@ -49,8 +49,8 @@
       </div>
     </div>
   </div>
-    <script type="text/javascript" src="../js/Pelicula.js"></script>
-    <script type="text/javascript" src="../js/api.js"></script>
-    <script type="text/javascript" src="../js/main.js"></script>
+    <script type="text/javascript" src="../../js/juego/Pelicula.js"></script>
+    <script type="text/javascript" src="../../js/juego/api.js"></script>
+    <script type="text/javascript" src="../../js/juego/main.js"></script>
 </body>
 </html>
